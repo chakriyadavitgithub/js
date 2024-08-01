@@ -4,7 +4,7 @@ let users=[
     {id:103,name:"kajol",sal:50000}
 ]
 for( user of users){
-    console.log(users)
+    console.log(user.id user.name)
 }
 
 
