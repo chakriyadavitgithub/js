@@ -239,8 +239,9 @@ for(let i=0;i<=users.length-1;i++){
     <td>${users[i].id}</td>
     <td>${users[i].username}</td>
     <td>${users[i].address.city}</td>
-    <td>${users[i].company.name}
+    <td>${users[i].company.name}</td>
      </tr>`
 }
 document.getElementById("api_Data").innerHTML=rows
+//document.getElementById("api_Data").innerHTML="GA"
   }
